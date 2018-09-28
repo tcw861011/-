@@ -1,0 +1,24 @@
+---
+title: "Homework1"
+author: "tcw861011"
+date: "2018年9月28日"
+output: html_document
+---
+
+```{r include = FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE,          # don't show code
+  warning = FALSE,       # don't show warnings
+  message = FALSE,       # don't show messages (less serious warnings)
+  cache = FALSE,         # set to TRUE to save results from last compilation
+  fig.align = "center"   # center figures
+)
+
+library(tidyverse)       # load libraries you always use here
+library(tidymodels)
+# library(hayeslib)      # i highly recommend creating a personal R package
+                         # with code you use a lot and loading it here as well
+
+set.seed(27)             # make random results reproducible
+```
+
