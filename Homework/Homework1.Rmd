@@ -1,0 +1,19 @@
+---
+title: "Homework1"
+author: "tcw861011"
+date: "2018年10月5日"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+##作業一
+```
+1+1
+
+1+1+2+2+3+3
+```
+
+# this R markdown chunk generates a code appendix
